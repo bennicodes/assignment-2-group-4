@@ -1,5 +1,17 @@
-:root{
-    /* colors */
+:root {
+  /* Colors */
+  --background-color: #fffdf3;
+  --text-color: #6f4633;
+  --score--text-color: #715e55;
+  --score--background-color: #dbd8d6;
+  --border-color: #ded9d7;
 
-    /* spacing */
+  /* Spacing */
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-x-large: 2rem;
+
+  /* Border */
+  --border-radius: 12px;
 }
