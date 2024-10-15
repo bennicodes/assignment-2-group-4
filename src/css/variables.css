@@ -5,12 +5,20 @@
   --score--text-color: #715e55;
   --score--background-color: #dbd8d6;
   --border-color: #ded9d7;
+  --game-background-color: #896d56;
+  --gameboard-empty-color: #a08875;
+  --gameboard-active-color: #f7e5dd;
 
   /* Spacing */
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
   --spacing-large: 1.5rem;
   --spacing-x-large: 2rem;
+
+  /* Font Size */
+  --font-size-base: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
 
   /* Border */
   --border-radius: 12px;
