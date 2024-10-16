@@ -21,13 +21,12 @@ header {
   padding: var(--spacing-medium);
 }
 
-.heading__section{
-    width: 220px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.heading__section {
+  width: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 
 .main-heading {
   color: var(--text-color);
@@ -37,7 +36,7 @@ header {
   font-size: var(--font-size-large);
 }
 
-.replay__button{
+.replay__button {
   display: none;
 }
 
@@ -236,9 +235,9 @@ main {
   font-family: Open sans, sans-serif;
 }
 
-.feedback__main--link{
-    color: beige;
-    display: none;
+.feedback__main--link {
+  color: beige;
+  display: none;
 }
 
 /* Footer */
@@ -278,22 +277,23 @@ footer {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .heading__section{
+  .heading__section {
     width: 33%;
   }
-  .header__link--container{
+  .header__link--container {
     width: 33%;
   }
 
-  .header__link--feedback{
+  .header__link--feedback {
     display: none;
   }
 
-  .score__section{
+  .score__section {
     width: 33%;
   }
-  .replay__button{
-    display: inline-block;
+
+  .header__link--container{
+    justify-content: center;
   }
 
   .game__container {
@@ -369,12 +369,12 @@ footer {
     grid-row: 4/5;
   }
 
-.main__link--container{
-  background-color: #92786b;
-  color: beige;
-}
+  .main__link--container {
+    background-color: #92786b;
+    color: beige;
+  }
 
-  .feedback__main--link{
+  .feedback__main--link {
     display: inline-block;
   }
 
@@ -384,37 +384,36 @@ footer {
   }
 }
 
-@media screen and (max-width: 750px){
-  header{
+@media screen and (max-width: 750px) {
+  header {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-medium);
     padding: var(--spacing-large);
   }
-  .heading__section{
+  .heading__section {
     width: 100%;
   }
-  .heading-link{
+  .heading-link {
     width: 100%;
     justify-content: space-between;
   }
-  .score__section{
+  .score__section {
     width: 100%;
     justify-content: center;
   }
-  .score__container{
+  .score__container {
     width: 50%;
     height: 50px;
   }
-  .best__score--container{
+  .best__score--container {
     width: 50%;
     height: 50px;
   }
-  .score-number{
+  .score-number {
     font-size: var(--font-size-base);
   }
-  .new__game--link{
+  .new__game--link {
     display: none;
   }
-
-} 
+}
