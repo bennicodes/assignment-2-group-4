@@ -1,13 +1,13 @@
 :root {
   /* Colors */
   --background-color: #fffdf3;
-  --text-color: #6f4633;
+  --text-color: #92786b;
   --score--text-color: #715e55;
-  --score--background-color: #dbd8d6;
+  --score--background-color: #f7f1dd;
   --border-color: #ded9d7;
-  --game-background-color: #896d56;
-  --gameboard-empty-color: #a08875;
-  --gameboard-active-color: #f7e5dd;
+  --game-background-color: #a89483;
+  --gameboard-empty-color: #c8b79d;
+  --gameboard-active-color: #f7ebdd;
 
   /* Spacing */
   --spacing-small: 0.5rem;
